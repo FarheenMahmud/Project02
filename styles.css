@@ -1,4 +1,4 @@
-/* General Styles */
+
 body {
     background-color: #24262e;
     margin: 0;
@@ -7,7 +7,7 @@ body {
     text-align: center;
 }
 
-/* Container */
+
 .container {
     display: flex;
     flex-direction: column;
@@ -95,7 +95,7 @@ button.btn-primary:hover {
     margin-left: 5px;
 }
 
-/* Responsive Design */
+
 @media (max-width: 600px) {
     form, .list-group {
         width: 90%;
