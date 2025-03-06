@@ -26,13 +26,16 @@
 
             <div class="mb-2">
                 <label class="form-label">Status</label>
-                <div>
-                    <input type="radio" name="taskStatus" value="pending" checked> Pending
-                    <input type="radio" name="taskStatus" value="completed"> Completed
+                <div class="d-flex flex-column">
+                    <label><input type="radio" name="taskStatus" value="pending" checked> Pending</label>
+                    <label><input type="radio" name="taskStatus" value="completed"> Completed</label>
                 </div>
             </div>
-            
-            <button type="submit" class="btn btn-primary">Add Task</button>
+
+            <!-- Button remains below -->
+            <div class="mb-2">
+                <button type="submit" class="btn btn-primary">Add Task</button>
+            </div>
         </form>
         <ul id="taskList" class="list-group"></ul>
     </div>
